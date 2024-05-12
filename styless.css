@@ -1,0 +1,44 @@
+body {
+    background-image: url("heat1.jpg");
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .icon-pink{
+    color: pink;
+}
+
+h1{
+    font-size: 4.2em;
+    font-style: italic;
+    color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .countdown {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .time {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .time span {
+    display: block;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-size: 4rem;
+  }
+  
+  .smalltext {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777;
+  }
